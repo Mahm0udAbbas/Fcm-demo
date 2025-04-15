@@ -21,8 +21,6 @@ This app is designed to [describe the purpose of your app, e.g., "send push noti
 2. **Firebase Integration**:  
    [If applicable, explain how Firebase is used, e.g., "Firebase is used for push notifications and real-time database updates."]
 
-
-
 ## Getting Started
 
 To run this app locally, follow these steps:
@@ -31,6 +29,39 @@ To run this app locally, follow these steps:
    Run the following command to install the required dependencies:
    ```bash
    npm install
+   ```
+2. **Start the Development Server**  
+    Start the development server with:
+
+   ```bash
+   npm run dev
+   ```
+
+   This will launch the application in development mode with hot module replacement (HMR).
+
+## Testing
+
+1. **Run Tests**  
+   To create a production build, use:
+   ```bash
+   npm test
+   ```
+
+## BUild the app
+
+1. **Build for Production**  
+    To create a production build, use:
+   ```bash
+   npm run build
+   ```
+   The production-ready files will be generated in the dist folder.
+
+## Preview Build
+
+1. **Preview the Production Build**  
+    To preview the production build locally, run:
+   ```bash
+   npm run preview
    ```
 
 ## Project Structure

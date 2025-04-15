@@ -1,13 +1,11 @@
 import React, { useEffect } from "react";
 import { requestFirebaseNotificationPermission } from "./firebase/fcmService";
 import SendOfferButton from "./SendOfferButton";
-import useNotification from "./useNotification";
 
 function App() {
   useEffect(() => {
     requestFirebaseNotificationPermission();
   }, []);
-  useNotification();
 
   return (
     <div>
