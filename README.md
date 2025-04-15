@@ -18,14 +18,10 @@ This app is designed to [describe the purpose of your app, e.g., "send push noti
 1. **Frontend**:  
    The app is built using React, with components organized in the `src/components` directory. Each component handles a specific part of the UI.
 
-2. **State Management**:  
-   [If applicable, describe how state is managed, e.g., "State is managed using React's Context API" or "State is managed using Redux."]
-
-3. **Firebase Integration**:  
+2. **Firebase Integration**:  
    [If applicable, explain how Firebase is used, e.g., "Firebase is used for push notifications and real-time database updates."]
 
-4. **Routing**:  
-   [If applicable, describe how routing is handled, e.g., "React Router is used for navigation between pages."]
+
 
 ## Getting Started
 
@@ -36,6 +32,21 @@ To run this app locally, follow these steps:
    ```bash
    npm install
    ```
+
+## Project Structure
+
+```
+react-fcm-fresh/
+├── public/          # Static assets
+├── src/             # Source code
+│   ├── components/  # React components
+│   ├── assets/      # Images, styles, etc.
+│   ├── App.jsx      # Main application component
+│   └── main.jsx     # Entry point
+├── .eslintrc.cjs    # ESLint configuration
+├── vite.config.js   # Vite configuration
+└── package.json     # Project metadata and dependencies
+```
 
 ## Expanding the ESLint configuration
 
